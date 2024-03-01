@@ -1,5 +1,6 @@
 # StarBoard v1.0.0
-![StarBoard Logo](https://res.cloudinary.com/dxraggwp4/image/upload/v1709318642/StarBoard/kw3rspovlmfugsjhbrst.png){height=60px width=60px}
+ <img src="https://res.cloudinary.com/dxraggwp4/image/upload/v1709318642/StarBoard/kw3rspovlmfugsjhbrst.png" width="50" height="50">
+
 
 
 ## Overview
