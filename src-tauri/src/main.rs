@@ -125,8 +125,8 @@ fn main() {
     let tasks: Arc<Mutex<Vec<Task>>> = Arc::new(Mutex::new(Vec::new()));
 
     tauri::Builder::default()
-        .manage(pages)  // Manage the state for 'pages'
-        .manage(tasks)  // Manage the state for 'tasks'
+        .manage(pages)  
+        .manage(tasks) 
         .invoke_handler(tauri::generate_handler![
             add_page,
             list_pages,
@@ -137,7 +137,6 @@ fn main() {
             edit_page_name,
             change_completion_status,
             delete_task
-            // Add other commands here...
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
